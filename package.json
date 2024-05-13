@@ -15,5 +15,8 @@
 		"url": "https://github.com/rushikeshpandit/node_practice/issues"
 	},
 	"homepage": "https://github.com/rushikeshpandit/node_practice#readme",
-	"description": ""
+	"description": "",
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	}
 }
