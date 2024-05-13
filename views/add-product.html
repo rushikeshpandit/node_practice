@@ -6,7 +6,8 @@
 		<meta http-equiv="X-UI-Compatible" content="ie=edge" />
 		<title>Add Product</title>
 		<link rel="stylesheet" href="/css/main.css" />
-        <link rel="stylesheet" href="/css/product.css" />
+		<link rel="stylesheet" href="/css/product.css" />
+		<link rel="stylesheet" href="/css/form.css" />
 	</head>
 	<body>
 		<header class="main-header">
@@ -22,7 +23,7 @@
 		<main>
 			<form class="product-form" action="/admin/add-product" method="post">
 				<div class="form-control">
-					<label>Product name: <input type="text" /></label>
+					<label>Product name: <input type="text" name="title" /></label>
 					<button type="submit">Add product</button>
 				</div>
 			</form>

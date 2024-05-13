@@ -3,14 +3,14 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const rootDir = require("./utils/path");
 
-const adminRoute = require("./routes/admin");
+const adminData = require("./routes/admin");
 const shopRoute = require("./routes/shop");
 
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(rootDir, "public")));
-app.use("/admin", adminRoute);
+app.use("/admin", adminData.routes);
 app.use("/user", shopRoute);
 
 app.use((req, res, next) => {
