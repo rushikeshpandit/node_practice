@@ -1,23 +1,27 @@
 {
-	"name": "node_practice",
-	"version": "1.0.0",
-	"main": "app.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon app.js"
+	"author": "Rushikesh Pandit",
+	"bugs": {
+		"url": "https://github.com/rushikeshpandit/node_practice/issues"
 	},
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"express": "^4.19.2"
+	},
+	"description": "",
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	},
+	"homepage": "https://github.com/rushikeshpandit/node_practice#readme",
+	"license": "ISC",
+	"main": "app.js",
+	"name": "node_practice",
 	"repository": {
 		"type": "git",
 		"url": "git+ssh://git@github.com/rushikeshpandit/node_practice.git"
 	},
-	"author": "Rushikesh Pandit",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/rushikeshpandit/node_practice/issues"
+	"scripts": {
+		"start": "nodemon app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"homepage": "https://github.com/rushikeshpandit/node_practice#readme",
-	"description": "",
-	"devDependencies": {
-		"nodemon": "^3.1.0"
-	}
+	"version": "1.0.0"
 }
