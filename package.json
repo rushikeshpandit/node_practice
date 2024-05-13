@@ -1,0 +1,19 @@
+{
+	"name": "node_practice",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/rushikeshpandit/node_practice.git"
+	},
+	"author": "Rushikesh Pandit",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rushikeshpandit/node_practice/issues"
+	},
+	"homepage": "https://github.com/rushikeshpandit/node_practice#readme",
+	"description": ""
+}
