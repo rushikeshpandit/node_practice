@@ -1,27 +1,23 @@
 {
-	"author": "Rushikesh Pandit",
-	"bugs": {
-		"url": "https://github.com/rushikeshpandit/node_practice/issues"
+	"name": "nodejs-complete-guide",
+	"version": "1.0.0",
+	"description": "Complete Node.js Guide",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js",
+		"start-server": "node app.js"
+	},
+	"author": "Maximilian Schwarzmüller",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "3.1.0"
 	},
 	"dependencies": {
-		"body-parser": "^1.20.2",
-		"express": "^4.19.2"
-	},
-	"description": "",
-	"devDependencies": {
-		"nodemon": "^3.1.0"
-	},
-	"homepage": "https://github.com/rushikeshpandit/node_practice#readme",
-	"license": "ISC",
-	"main": "app.js",
-	"name": "node_practice",
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com/rushikeshpandit/node_practice.git"
-	},
-	"scripts": {
-		"start": "nodemon app.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"version": "1.0.0"
+		"body-parser": "1.20.2",
+		"ejs": "3.1.10",
+		"express": "4.19.2",
+		"express-handlebars": "7.1.2",
+		"pug": "3.0.2"
+	}
 }
